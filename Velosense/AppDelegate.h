@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ScanController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+    UIViewController *rootViewController;
+}
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic, strong) UIViewController *rootViewController;
 @end
